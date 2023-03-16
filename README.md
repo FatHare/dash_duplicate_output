@@ -43,7 +43,7 @@ app.layout = html.Div(
 
 @app.callback(
     [
-        # Note: DuplicateOutput can also be called from app, example: app.DuplicateOutput('span', 'children').
+        # Note: DuplicateOutput can also be called from app, example: app.DuplicateOutput(Identify.span_id, 'children').
         DuplicateOutput(Identify.span_id, 'children'),
         Output(Identify.btn_left_id, 'children')
     ],

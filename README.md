@@ -1,3 +1,9 @@
+## Install
+
+```
+pip install git+https://github.com/FatHare/dash_duplicate_output.git
+```
+
 ## Description
 
 Component can be used to solve the problem with duplicate callback outputs in <a href="https://dash.plotly.com/">dash plotly app.</a>
